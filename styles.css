@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(197, 202, 207);
+    display: flex;
+    justify-content: flex-end;
+}
+a {
+    margin-left: 6%;
+    padding: 0.7%;
+    text-decoration: none;
+    color: black;
+}
+
+#content {
+    display: flex;
+    justify-content: center;     
+    align-items: center;       
+    padding: 5vh 5vw;
+}
+
+.welcome {
+    height: 40vh;
+    width: 50vw;
+}
+
+.heading {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5vh;
+    font-size: xxx-large;
+    margin-left: 50px;
+}
+
+.headingperagraph {
+    display: flex;
+    justify-content: flex-start;
+    font-size: x-large;
+    margin-left: 50px;
+}
+
+button {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: rgb(9, 9, 239);
+    color: rgb(255, 255, 255);
+}
+
+.button1 {
+    margin-top: 50px;
+    margin-left: 3vw;
+}
+
+.button2 {
+    margin-left: 4vw;
+}
+
+.image1 {
+    background-image: url('image.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;                
+    width: 40vw;                 
+    border-radius: 10px;
+}
+.offer-section {
+    background-color: #1e293b;   /* Dark blue background */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.offer-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.offer-card {
+    background-color: #f1f5f9;   /* Light card color */
+    color: black;
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.offer-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.offer-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+#footer{
+    background-color: rgb(180, 179, 184);
+    width: 100%;
+    position: sticky;
+}
+#follow-me{
+    display: flex;
+    justify-content: space-evenly;
+}
+#icon1,#icon2,#icon3,#icon4,#icon5{
+    width: 50px;
+    height: 30px;
+    margin-top: 20%;
+}
+#contactus{
+    text-align: center;
+    font-size: small;
+}
+.footer-bottom{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(142, 145, 142);
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    
+}
